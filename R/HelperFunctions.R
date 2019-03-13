@@ -110,7 +110,7 @@ update_drillstack_selectInput_set<-function(session,activepage=input$activepage,
           update_drillstack_selectInput(session,inputId='program_level4',choices=choices,selected='Not Used',CostModelInfo)
           update_drillstack_selectInput(session,inputId='program_level5',choices=choices,selected='Not Used',CostModelInfo)
 
-          choices=c('User Group','Cost Type', 'Fund', 'Div1','Div2','Div3','Div4','Div5','Div6','Div7','Div8', 'obj_level_01','obj_level_02','obj_level_03','obj_level_04')
+          choices=c('User Group','Cost Type', 'Fund', 'Div1','Div2','Div3','Div4','Div5','Div6','Div7','Div8', 'obj_level_01','obj_level_02','obj_level_03','obj_level_04','Name','Account')
 
           update_drillstack_selectInput(session,inputId='alloc_level1',choices=choices,selected='Cost Type',CostModelInfo)
           update_drillstack_selectInput(session,inputId='alloc_level2',choices=choices,selected='obj_level_01',CostModelInfo)
